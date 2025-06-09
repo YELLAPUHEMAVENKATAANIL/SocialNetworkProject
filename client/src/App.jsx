@@ -22,6 +22,7 @@ const App = () => {
       </div> */}
       {/* <div className="other-components" style={{ marginTop: "70px" }}> */}
       <Routes>
+        <Route path ="/" element={<SignUp/>}/>
         <Route path="/home" element={<Home />} />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
